@@ -41,7 +41,6 @@ class HTTPClient:
         if params is not None:
              endpoint += "&" + "&".join([f"{key}={value}" for key, value in params.items()])
         
-        print(base_url, endpoint)
         url = base_url.format(endpoint = endpoint)
         response = requests.get(url, headers=self.headers, proxies=self.proxies)
         url = response.url
