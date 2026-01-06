@@ -6,7 +6,7 @@ This client is based on the work done by [Swar Patel](https://github.com/swar) a
  
 
 ## Getting Started
-pwhl_api requires Python version `3.8` or higher, and can be installed through `pip` using the following command:
+pwhl_api requires Python version `3.10` or higher, and can be installed through `pip` using the following command:
 ```bash
 pip install pwhl_api
 ```

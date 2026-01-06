@@ -1,8 +1,9 @@
 [project]
 name = "pwhl_api"
-version = "0.1.0"
+version = "0.1.1"
 description = "An API Client package to access the APIs for thepwhl.com"
-requires-python = ">=3.8"
+readme = "README.md"
+requires-python = ">=3.10"
 license = "MIT"
 authors = [ {name = "Mason Langer", email = "masonelanger@gmail.com"}]
 maintainers = [
@@ -23,3 +24,11 @@ dependencies = [
     "pandas >=2.2.0 ; python_version >= '3.12'",
     "requests (>=2.32.3,<3.0.0)"
 ]
+
+[project.urls]
+Homepage = "https://github.com/masonlanger/pwhl_api"
+Issues = "https://github.com/masonlanger/pwhl_api/issues"
+
+
+[tool.setuptools.package-data]
+pwhl_api = ["static/*","*.json"]
