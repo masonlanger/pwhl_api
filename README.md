@@ -67,5 +67,5 @@ shoots         hometown player_id   birthdate tp_jersey_number position  \
 * [Table of Contents](https://github.com/masonlanger/pwhl_api/blob/main/docs/pwhl_api/TABLE_OF_CONTENTS.md)
 * [Endpoints](https://github.com/masonlanger/pwhl_api/tree/main/docs/pwhl_api/endpoints)
 * [Static](https://github.com/masonlanger/pwhl_api/tree/main/docs/pwhl_api/static)
-* [Static](https://github.com/masonlanger/pwhl_api/tree/main/examples)
+* [Examples](https://github.com/masonlanger/pwhl_api/tree/main/examples)
 
