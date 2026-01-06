@@ -4,3 +4,4 @@ venv/
 src/test.ipynb
 .DS_Store
 dist/
+.vscode/

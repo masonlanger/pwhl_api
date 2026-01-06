@@ -9,6 +9,7 @@ src/pwhl_api.egg-info/requires.txt
 src/pwhl_api.egg-info/top_level.txt
 src/pwhl_api/endpoints/__init__.py
 src/pwhl_api/endpoints/gamepreview.py
+src/pwhl_api/endpoints/gamesummary.py
 src/pwhl_api/endpoints/leagueschedule.py
 src/pwhl_api/endpoints/leaguestandings.py
 src/pwhl_api/endpoints/playbyplay.py
@@ -28,6 +29,7 @@ src/pwhl_api/static/seasons.json
 src/pwhl_api/static/seasons.py
 src/pwhl_api/static/teams.json
 src/pwhl_api/static/teams.py
+tests/test_gamesummary.py
 tests/test_leagueschedule.py
 tests/test_leaguestandings.py
 tests/test_playbyplay.py
